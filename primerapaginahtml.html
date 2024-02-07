@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tutorial de html</title>
+		<meta name="keyword" content="tutorial html, html tutorial sencillo,inicio html">
+		<meta name="description" content="Tutorial sencillo de html para comenzar a desarollar páginas web.">
+
+		<style type="text/css">
+			.flota_derecha{
+				float:right;
+			}
+			#parrafo1{
+				font-size: 150%;	
+			}
+		</style>
+
+		<script type="text/javascript">
+			function showDialog(param){
+				if(param == 1){
+					//Nothing
+				}else if(param == 3){
+					alert("Hola, soy un dialog");
+				}else{
+					alert("Hola, no soy un 3");
+				}
+				
+			}
+		</script>
+	</head>
+	<body>
+
+		<h1>Soy un título!</h1>
+
+		<p onclick="showDialog(1);" id="parrafo1" class="">
+			Hola, soy un párrafo!<br/>
+			<b>Hola, estoy en el mismo párrafo,</b> pero <i>debajo</i>.
+		</p>
+
+		<marquee>
+			<p>
+				Este es el segundo párrafo.
+			</p>
+		</marquee>
+
+		<center style="visibility: hidden;">	
+			<a href="http://duhnnae.com" target="_blank">
+				<img src="http://www.duhnnae.com/images/cabe-duhnn.jpg" style="max-width: 300px;" />
+			</a>
+		</center>
+
+		<center>
+			<audio controls style="margin-bottom: 40px;"> 
+				<source src="https://s3-eu-west-1.amazonaws.com/mainbucketduhnnaeireland/percusion/free/1.m4a" type="audio/mpeg">
+			</audio>
+
+			<!--<video style="max-width: 300px;" src="https://s3-eu-west-1.amazonaws.com/mainbucketduhnnaeireland/testar/video.ogv" controls>
+
+			</video>-->
+
+		</center>
+	</body>
+</html>
